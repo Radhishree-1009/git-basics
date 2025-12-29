@@ -1,0 +1,29 @@
+**What is a branch**
+
+A branch is a separate line of work inside a git repository.
+It lets you work on changes without touching the main (stable) code.
+The main branch stays safe while you experiment, add features, or fix bugs in another branch.
+
+**Why teams use feature branches**
+
+Teams use feature branches because they:
+  1. Allow multiple people to work at the same time without conflicts
+  2. Keep the main branch stable and deployable
+  3. Make code reviews easier (changes are isolated)
+  4. Reduce risk—if something breaks, only the feature branch is affected
+  5. Help track work clearly (one branch = one feature or fix)
+
+**One simple real-world example**
+
+Imagine a team building a food delivery app.
+The main branch has the live app code.
+One developer creates a branch called feature-payment to add online payments.
+Another developer works on feature-tracking to add order tracking.
+Each developer works independently.When the payment feature is complete and tested,
+it is merged into the main branch. If there’s a problem, the main app is not disturbed.
+
+**In short:**
+
+A branch is like making a copy of a notebook page to try new ideas—
+only when it’s correct do you add it back to the main notebook.
+
